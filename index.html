@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+    <head>
+        <script src="lib/jquery.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="lib/boo/css/bootstrap.css">
+    </head>
+    <body ng-controller="InicioCtrl">
+        <!---Llamada De variables scope del archivo script-->
+        <span>Ingrese su nombre:</span>
+        <input type="text" ng-model="NombreUsuario">
+        <!--Variables temporal con ng model-->
+        <h2>Bienvenido:</h2>
+        <span>{{NombreUsuario}}</span>
+        <!--Operación aritmetica-->
+        {{3-5}}
+
+
+
+        <script src="lib/angularjs.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+    </html>
